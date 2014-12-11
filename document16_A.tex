@@ -1,0 +1,578 @@
+% プロジェクト学習中間報告書書式テンプレート ver.1.0 (iso-2022-jp)
+
+% 両面印刷する場合は `openany' を削除する
+\documentclass[openany,11pt,papersize]{jsbook}
+
+% 報告書提出用スタイルファイル
+\usepackage[final]{funpro}%最終報告書
+%\usepackage[middle]{funpro}%中間報告書
+
+% 画像ファイル (EPS，EPDF，PNG) を読み込むために
+\usepackage[dvipdfm]{graphicx,color}
+
+% 年度の指定
+\thisYear{2014}
+
+% プロジェクト名
+\jProjectName{ミライケータイプロジェクト}
+
+% [簡易版のプロジェクト名]{正式なプロジェクト名}
+% 欧文のプロジェクト名が極端に長い（2行を超える）場合は，短い記述を
+% 任意引数として渡す．
+%\eProjectName[Making Delicious curry]{How to make delicious curry of Hakodate}
+\eProjectName{Future Mobile Phone Project}
+
+
+% <プロジェクト番号>-<グループ名>
+\ProjectNumber{16}
+
+\begin{document}
+
+%
+% 表紙
+%\maketitle
+%
+
+\newpage
+\pagestyle{empty}
+
+%表紙
+\input{contents/0.0.0-表紙.tex}
+
+%前付け
+\frontmatter
+
+% 和文概要
+\input{contents/0.0.1-和文概要.tex}
+
+%英語の概要
+\input{contents/0.0.2-英文概要.tex}
+
+%目次
+\tableofcontents% 目次
+
+\mainmatter% 本文のはじまり
+
+%
+% 第一章 はじめに
+%
+\chapter{はじめに}
+
+%背景
+\input{contents/1.1.1-背景.tex}
+
+%目的
+\input{contents/1.1.2-目的.tex}
+
+%
+% 第二章 プロジェクト学習の概要
+%
+\chapter{はじめに}
+
+%2.1 合同プロジェクト
+\input{contents/2.1.0-合同プロジェクト.tex}
+
+%2.1.1 公立はこだて未来大学
+\input{contents/2.1.1-未来大.tex}
+
+%2.1.2 神奈川工科大学
+\input{contents/2.1.2-神奈工.tex}
+
+%2.1.3 長崎大学
+\input{contents/2.1.3-長崎大.tex}
+
+
+%2.2 課題の設定
+\input{contents/2.2.0-課題の設定.tex}
+
+%2.2.1 公立はこだて未来大学
+\input{contents/2.2.1-未来大.tex}
+
+%2.2.2 神奈川工科大学
+\input{contents/2.2.2-神奈工.tex}
+
+%2.2.3 長崎大学
+\input{contents/2.2.3-長崎大.tex}
+
+
+%2.3 課題の割り当て
+\input{contents/2.3.0-課題の割り当て.tex}
+
+%2.3.1 公立はこだて未来大学
+\input{contents/2.3.1-未来大.tex}
+
+%2.3.2 神奈川工科大学
+\input{contents/2.3.2-神奈工.tex}
+
+%2.3.3 長崎大学
+\input{contents/2.3.3-長崎大.tex}
+
+
+%2.4 組織形態
+\input{contents/2.4.0-組織形態.tex}
+
+%2.4.1 公立はこだて未来大学の役割
+\input{contents/2.4.1-未来大の役割.tex}
+
+%2.4.2 神奈川工科大学の役割
+\input{contents/2.4.2-神奈工の役割.tex}
+
+%2.4.3 長崎大学の役割
+\input{contents/2.4.3-長崎大の役割.tex}
+
+
+%2.4.4 プロジェクトリーダーの役割
+\input{contents/2.4.4.0-プロジェクトリーダーの役割.tex}
+
+%2.4.4.1 プロジェクトリーダーの役割-未来大
+\input{contents/2.4.4.1-プロジェクトリーダーの役割-未来大.tex}
+
+%2.4.4.2 プロジェクトリーダーの役割-神奈工
+\input{contents/2.4.4.2-プロジェクトリーダーの役割-神奈工.tex}
+
+%2.4.4.3 プロジェクトリーダーの役割-長崎大
+\input{contents/2.4.4.3-プロジェクトリーダーの役割-長崎大.tex}
+
+%2.4.5 サーバ班の役割
+\input{contents/2.4.5-サーバ班の役割.tex}
+
+%2.4.6 アプリ開発班の役割
+\input{contents/2.4.6-アプリ開発班の役割.tex}
+
+%2.4.7 教員と企業の役割
+\input{contents/2.4.7-教員と企業の役割.tex}
+
+
+%2.5 年間スケジュール
+\input{contents/2.5.0-年間スケジュール.tex}
+
+%2.5.1 合同プロジェクト
+\input{contents/2.5.1-合同プロジェクト.tex}
+
+%2.5.2 未来大
+\input{contents/2.5.2-未来大.tex}
+
+%2.5.3 神奈工
+\input{contents/2.5.3-神奈工.tex}
+
+%2.5.4 長崎大
+\input{contents/2.5.4-長崎大.tex}
+
+
+%
+% 第三章 提案アプリケーション
+%
+\chapter{提案アプリケーション}
+
+%
+% Cool Japanimation
+%
+
+%3.1 Cool Japanimation
+\input{contents/3.1.0-CoolJapanimation.tex}
+
+%3.1.1 アプリ概要・目的
+\input{contents/3.1.1-アプリ概要・目的.tex}
+
+%3.1.2 システム概要
+\input{contents/3.1.2-システム概要.tex}
+
+%3.1.3 実装機能
+\input{contents/3.1.3-実装機能.tex}
+
+%3.1.4 ビジネスモデル
+\input{contents/3.1.4-ビジネスモデル.tex}
+
+%
+% Rhyth-Walk
+%
+
+%3.2 Rhyth/Walk
+\input{contents/3.2.0-RhythWalk.tex}
+
+%3.2.1 アプリ概要・目的
+\input{contents/3.2.1-アプリ概要・目的.tex}
+
+%3.2.2 システム概要
+\input{contents/3.2.2-システム概要.tex}
+
+%3.2.3 実装機能
+\input{contents/3.2.3-実装機能.tex}
+
+%3.2.4 ビジネスモデル
+\input{contents/3.2.4-ビジネスモデル.tex}
+
+
+%
+% 第四章 開発プロセス
+%
+\chapter{開発プロセス}
+
+%4.1.0 開発プロセスの概要
+\input{contents/4.1.0-開発プロセスの概要.tex}
+
+%4.1.1 Cool Japanimation
+\input{contents/4.1.1-CoolJapanimation.tex}
+
+%4.1.2 Rhyth/Walk
+\input{contents/4.1.2-RhythWalk.tex}
+
+
+%4.2.0 共通の開発プロセスの流れ
+\input{contents/4.2.0-共通の開発プロセスの流れ.tex}
+
+%4.2.1 アプリケーション案の作成
+\input{contents/4.2.1-アプリケーション案の作成.tex}
+
+%4.2.2 アプリケーション案の決定
+\input{contents/4.2.2-アプリケーション案の決定.tex}
+
+
+%4.3.0 Cool Japanimation
+\input{contents/4.3.0-CoolJapanimation.tex}
+
+%4.3.1 機能の選定
+\input{contents/4.3.1-機能の選定.tex}
+
+%4.3.2 類似アプリ調査
+\input{contents/4.3.2-類似アプリ調査.tex}
+
+%4.3.3 使用端末分担
+\input{contents/4.3.3-使用端末分担.tex}
+
+%4.3.4 ロゴの決定
+\input{contents/4.3.4-ロゴの決定.tex}
+
+%4.3.5 アプリ名の決定
+\input{contents/4.3.5-アプリ名の決定.tex}
+
+
+%4.4.0 RhythWalk
+\input{contents/4.4.0-RhythWalk.tex}
+
+%4.4.1 機能の選定
+\input{contents/4.4.1-機能の選定.tex}
+
+%4.4.2 類似アプリ調査
+\input{contents/4.4.2-類似アプリ調査.tex}
+
+%4.4.3 使用端末分担
+\input{contents/4.4.3-使用端末分担.tex}
+
+%4.4.4 ロゴの決定
+\input{contents/4.4.4-ロゴの決定.tex}
+
+%4.4.5 アプリ名の決定
+\input{contents/4.4.5-アプリ名の決定.tex}
+
+
+%4.5.0 去年までとの違い
+\input{contents/4.5.0-去年までとの違い.tex}
+
+%4.5.1 ガントチャートの使用
+\input{contents/4.5.1-ガントチャートの使用.tex}
+
+%4.5.2 Android班の役割分担
+\input{contents/4.5.2-Android班の分担.tex}
+
+%4.5.3 長崎大との連携
+\input{contents/4.5.3-長崎大との連携.tex}
+
+
+%
+% 第五章 グループ内のインターワーキング
+%
+\chapter{グループ内のインターワーキング}
+
+%5.1.0 活動内容 CoolJapanimation
+\input{contents/5.1.0-活動内容CoolJapanimation.tex}
+
+%5.1.1 Android班
+\input{contents/5.1.1-Android.tex}
+
+%5.1.2 HTML5班
+\input{contents/5.1.2-HTML5.tex}
+
+%5.1.3 サーバ班
+\input{contents/5.1.3-サーバ班.tex}
+
+
+%5.2.0 活動内容 Rhyth/Walk
+\input{contents/5.2.0-活動内容RhythWalk.tex}
+
+%5.2.1 Android班
+\input{contents/5.2.1-Android.tex}
+
+%5.2.2 iOS班
+\input{contents/5.2.2-iOS.tex}
+
+%5.2.3 サーバ班
+\input{contents/5.2.3-サーバ班.tex}
+
+
+%
+% 第六章 問題解決
+%
+\chapter{問題解決}
+
+%6.1.0 Cool Japanimation
+\input{contents/6.1.0-CoolJapanimation.tex}
+
+%6.1.1 Android
+\input{contents/6.1.1-Android.tex}
+
+%6.1.2 HTML5
+\input{contents/6.1.2-HTML5.tex}
+
+%6.1.3 サーバ班
+\input{contents/6.1.3-サーバ班.tex}
+
+
+%6.2.0 Rhyth/Walk
+\input{contents/6.2.0-RhythWalk.tex}
+
+%6.2.1 Android
+\input{contents/6.2.1-Android.tex}
+
+%6.2.2 iOS
+\input{contents/6.2.2-iOS.tex}
+
+%6.2.3 サーバ班
+\input{contents/6.2.3-サーバ班.tex}
+
+
+%
+% 第七章 個人の作業とプロセス
+%
+\chapter{個人の作業とプロセス}
+
+%7.1.0 公立はこだて未来大学
+\input{contents/7.1.0-未来大個人作業.tex}
+
+%7.1.1 小笠原
+\input{contents/7.1.1-小笠原.tex}
+
+%7.1.2 村上
+\input{contents/7.1.2-村上.tex}
+
+%7.1.3 澤田
+\input{contents/7.1.3-澤田.tex}
+
+%7.1.4 藤原
+\input{contents/7.1.4-藤原.tex}
+
+%7.1.5 木津
+\input{contents/7.1.5-木津.tex}
+
+%7.1.6 中司
+\input{contents/7.1.6-中司.tex}
+
+%7.1.7 坂本
+\input{contents/7.1.7-坂本.tex}
+
+%7.1.8 鍋田
+\input{contents/7.1.8-鍋田.tex}
+
+%7.1.9 岩田
+\input{contents/7.1.9-岩田.tex}
+
+%7.1.10 紺井
+\input{contents/7.1.10-紺井.tex}
+
+%7.1.11 三栖
+\input{contents/7.1.11-三栖.tex}
+
+%7.1.12 金澤
+\input{contents/7.1.12-金澤.tex}
+
+
+%7.2.0 神奈川工科大学
+\input{contents/7.2.0-神奈工個人作業.tex}
+
+%7.2.1 遠藤
+\input{contents/7.2.1-遠藤.tex}
+
+%7.2.2 赤木
+\input{contents/7.2.2-赤木.tex}
+
+%7.2.3 安藤
+\input{contents/7.2.3-安藤.tex}
+
+
+%7.3.0 長崎大学
+\input{contents/7.3.0-長崎大個人作業.tex}
+
+%7.3.1 磯野
+\input{contents/7.3.1-磯野.tex}
+%7.3.2 立石
+\input{contents/7.3.2-立石.tex}
+
+%7.3.3 清水
+\input{contents/7.3.3-清水.tex}
+
+%7.3.4 岡本
+\input{contents/7.3.4-岡本.tex}
+
+%7.3.5 大鶴
+\input{contents/7.3.5-大鶴.tex}
+
+%7.3.6 吉澤
+\input{contents/7.3.6-吉澤.tex}
+
+
+%
+% 第八章 成果
+%
+\chapter{成果}
+
+%8.1.0 前期成果
+\input{contents/8.1.0-前期成果.tex}
+
+%8.1.1 合同プロジェクト
+\input{contents/8.1.1-合同プロジェクト.tex}
+
+%8.1.2 未来大
+\input{contents/8.1.2-未来大.tex}
+
+%8.1.3 神奈工
+\input{contents/8.1.3-神奈工.tex}
+
+%8.1.4 長崎大
+\input{contents/8.1.4-長崎大.tex}
+
+
+%8.2.0 後期成果
+\input{contents/8.2.0-後期成果.tex}
+
+%8.2.1 合同プロジェクト
+\input{contents/8.2.1-合同プロジェクト.tex}
+
+%8.2.2 未来大
+\input{contents/8.2.2-未来大.tex}
+
+%8.2.3 神奈工
+\input{contents/8.2.3-神奈工.tex}
+
+%8.2.4 長崎大
+\input{contents/8.2.4-長崎大.tex}
+
+
+%8.3.0 成果物一覧
+\input{contents/8.3.0-成果物一覧.tex}
+
+%8.3.1 前期成果物
+\input{contents/8.3.1-前期成果物.tex}
+
+%8.3.2 後期成果物
+\input{contents/8.3.2-後期成果物.tex}
+
+
+
+%
+% 第九章 他校・企業との連携
+%
+\chapter{他校・企業との連携}
+
+%9.1.0 合同プロジェクト
+\input{contents/9.1.0-合同プロジェクト他校企業連携.tex}
+
+%9.1.1 専修大学渥美幸雄様の講演
+\input{contents/9.1.1-専修大学渥美幸雄様の講演.tex}
+
+%9.1.2 第１回合同合宿
+\input{contents/9.1.2-第１回合同合宿.tex}
+
+%9.1.3 第２回合同合宿
+\input{contents/9.1.3-第２回合同合宿.tex}
+
+
+%9.2.0 未来大他校企業連携
+\input{contents/9.2.0-未来大他校企業連携.tex}
+
+%9.2.1 IDY株式会社本田和明様の講演
+\input{contents/9.2.1-IDY株式会社本田和明様の講演.tex}
+
+%9.2.2 中間発表会
+\input{contents/9.2.2-中間発表会.tex}
+
+%9.2.3 成果発表会
+\input{contents/9.2.3-成果発表会.tex}
+
+%9.2.4 キャンパスベンチャーグランプリ
+\input{contents/9.2.4-キャンパスベンチャーグランプリ.tex}
+
+%9.2.5 アカデミックリンク
+\input{contents/9.2.5-アカデミックリンク.tex}
+
+
+%9.3.0 神奈工他校企業連携
+\input{contents/9.3.0-神奈工他校企業連携.tex}
+
+%9.3.1 中間発表会
+\input{contents/9.3.1-中間発表会.tex}
+
+%9.3.2 成果発表会
+\input{contents/9.3.2-成果発表会.tex}
+
+
+%9.4.0 長崎大他校企業連携
+\input{contents/9.4.0-長崎大他校企業連携.tex}
+
+%9.4.1 中間発表会
+\input{contents/9.4.1-中間発表会.tex}
+
+%9.4.2 成果発表会
+\input{contents/9.4.2-成果発表会.tex}
+
+
+%
+% 第十章 ミライケータイプロジェクトの現状
+%
+\chapter{ミライケータイプロジェクトの現状}
+
+%10.1.0 現状のミライケータイ
+\input{contents/10.1.0-現状のミライケータイ.tex}
+
+%10.1.1 ミライケータイプロジェクトの現状
+\input{contents/10.1.1-ミライケータイプロジェクトの現状.tex}
+
+%10.1.2 CoolJapanimationの現状
+\input{contents/10.1.2-CoolJapanimationの現状.tex}
+
+%10.1.3 Rhyth/Walkの現状
+\input{contents/10.1.3-RhythWalkの現状.tex}
+
+
+%
+% 第十一章 ミライケータイプロジェクトの今後
+%
+\chapter{ミライケータイプロジェクトの今後}
+
+%11.1.0 今後のミライケータイ
+\input{contents/11.1.0-今後のミライケータイ.tex}
+
+%11.1.1 ミライケータイプロジェクトの今後
+\input{contents/11.1.1-ミライケータイプロジェクトの今後.tex}
+
+%11.1.2 CoolJapanimationの今後
+\input{contents/11.1.2-CoolJapanimationの今後.tex}
+
+%11.1.3 Rhyth/Walkの今後
+\input{contents/11.1.3-RhythWalkの今後.tex}
+
+
+%
+% 第十二章 まとめ
+%
+\chapter{まとめ}
+
+\input{contents/12.0.0-まとめ.tex}
+
+
+%\backmatter
+
+% 参考文献
+% \begin{thebibliography}{9}
+% \end{thebibliography}
+
+\end{document}
