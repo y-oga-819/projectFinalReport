@@ -4,7 +4,7 @@
 
 ![画像１](http://i.imgur.com/hFKcQYG.png)
 
-1.「branch:master」って書いてあるボタンを押す
+1.「branch:master」って書いてあるボタンを押す(「branch:別の文字」になっていたらボタンを押して出てきたリストからbranchを選択する)
 
 2.「Find or create branch..」って書いてあるところに適当に文字を打ち込んでEnter押す(ボタンが「branch:打ち込んだ文字」になってればOK)
 
@@ -33,3 +33,11 @@
 ![画像5](http://i.imgur.com/ksXJR9V.png)
 
 10.これで完了！
+
+※1 Pull Requestを送ったら，僕(未来大リーダー)が内容を確認してコメントを送るなり，Pull requestを承認するなりします．
+
+※2 コメントした際はGithubに登録したアドレスにメールが届くと思うので確認しましょう．
+
+※3　下の画像の「pull requests」リンクに飛ぶと，みんなが送信したpull requestを見ることが出来ます．自分のpull Requestを選択すると僕が送ったコメントが見られるのでここで確認しましょう．
+
+![画像6](http://i.imgur.com/HLKJixk.png)
